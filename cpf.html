@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discos</title>
+</head>
+<body>
+    <center>
+    <h1>Consulta CPF</h1>
+    <div id="imagem"></div>
+    <div id="nome"></div>
+    <div id="sobrenome"></div>
+    <div id="cidade"></div>
+    <div id="pais"></div>
+    <div id="link"></div>
+    
+    <input type="number" id="valor" placeholder="Digite o CPF">
+    <div id="erro"></div>
+    <button onclick="buscar()">Buscar</button>
+    <h3 class="voltar"><a href="index.html" class="link">Voltar</a></h3>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+    /* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo global da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #f06292;
+    margin-bottom: 2rem;
+}
+
+
+/* Estilo do campo de entrada */
+input[type="number"] {
+    border: 1px solid #f06292;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #000;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #f06292;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito hover do botão */
+button:hover {
+    background-color: #e91e63;
+    transform: translateY(-2px);
+}
+
+/* Estilo da mensagem de erro */
+#erro {
+    color: #f44336;
+    margin-top: 1rem;
+}
+
+</style>

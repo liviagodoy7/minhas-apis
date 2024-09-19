@@ -1,0 +1,68 @@
+/* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo global da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #f06292;
+    margin-bottom: 2rem;
+}
+
+/* Estilo das caixas de produtos */
+div[id^="imagem"], div[id^="nome"], div[id^="disco"], div[id^="estilo"], div[id^="preco"] {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Estilo específico das caixas de produtos */
+div[id^="imagem"], div[id^="nome"], div[id^="disco"], div[id^="estilo"], div[id^="preco"] {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilo do botão de compra */
+#botao {
+    margin: 1rem auto;
+}
+
+button {
+    background-color: #f06292;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito hover do botão */
+button:hover {
+    background-color: #e91e63;
+    transform: translateY(-2px);
+}
+
+/* Estilo para múltiplos produtos */
+div[id^="imagem2"], div[id^="nome2"], div[id^="disco2"], div[id^="estilo2"], div[id^="preco2"],
+div[id^="imagem3"], div[id^="nome3"], div[id^="disco3"], div[id^="estilo3"], div[id^="preco3"] {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.voltar {
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+{
+    "jogadores": [
+        {
+            "id": 1,
+            "nome": "Augusto França",
+            "idade": 34,
+            "posicao": "Central",
+            "time": "Macau",
+            "imagem": "imagens/francafoto.png"
+
+        },
+        {
+            "id": 2,
+            "nome": "Victor Godoy",
+            "idade": 20,
+            "posicao": "Zagueiro",
+            "time": "SESI-SP",
+            "imagem": "imagens/victorfoto.png "
+        },
+        {
+            "id": 3,
+            "nome": "Kailany Monteiro",
+            "idade": 15,
+            "posicao": "Ponta direita",
+            "time": "SESI-SP",
+            "imagem": "imagens/kailanyfoto.png"
+        },
+        {
+            "id": 4,
+            "nome": "Isabely Ramos",
+            "idade": 18,
+            "posicao": "Meio-campo",
+            "time": "SESI-SP",
+            "imagem": "imagens/isinhafoto.png"
+        },
+        {
+            "id": 5,
+            "nome": "Livia Godoy",
+            "idade": 16,
+            "posicao": "9",
+            "time": "SESI-SP",
+            "imagem": "imagens/liviafoto.png"
+        },
+        {
+            "id": 6,
+            "nome": "Leticia Godoy",
+            "idade": 14,
+            "posicao": "Defesa",
+            "time": "SESI-SP",
+            "imagem": "imagens/leticiafoto.png"
+        }
+    ]
+}

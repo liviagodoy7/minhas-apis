@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(240, 98, 146);
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+body {
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.capa {
+    background-color: aliceblue;
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+}
+.voltar {
+    text-align: center;
+}

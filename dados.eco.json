@@ -1,0 +1,19 @@
+{
+    "nome": "Atitude Feminina",
+    "album": "Rosas",
+    "style":"Rap",
+    "price": "R$ 35,90",
+    "imagem": "<img src='imagens/atitude-feminina.jpg' width='100px'>",
+    
+    "nome2": "Charlie Brown Junior",
+    "album2": "Imunidade Musical",
+    "style2":"Rock",
+    "price2": "R$ 199,90",
+    "imagem2": "<img src='imagens/charlie-brown.jpg' width='100px'>",
+    
+    "nome3": "One Direction",
+    "album3": "Take Me Home",
+    "style3":"Pop",
+    "price3": "R$ 149,90",
+    "imagem3": "<img src='imagens/one-direction.jpg' width='100px'>"
+}
